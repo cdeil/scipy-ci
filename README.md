@@ -94,17 +94,23 @@ Examples:
 
 Here are links to the CI dashboards for the [Scipy stack](http://scipy.github.com/stackspec.html) packages:
 
-* Numpy: [travis-ci](https://travis-ci.org/numpy/numpy), ??
-* Scipy: [buildbot](http://buildbot.scipy.org)
+* Numpy: [travis-ci](https://travis-ci.org/numpy/numpy), [shiningpanda](https://jenkins.shiningpanda-ci.com/numpy/) (not active)
+* Scipy: [buildbot](http://buildbot.scipy.org),
+  [shiningpanda](https://jenkins.shiningpanda-ci.com/scipy/) (not active)
 * matplotlib: [travis-ci](https://travis-ci.org/matplotlib/matplotlib)
 * IPython: [travis-ci](https://travis-ci.org/ipython/ipython)
-* Pandas: 
-* Sympy: 
+* Pandas: [travis-ci](https://travis-ci.org/pydata/pandas)
+* Sympy: [travis-ci](https://travis-ci.org/sympy/sympy)
 
 Other scientific Python packages:
 
-* Nipy: [buildbot](http://nipy.bic.berkeley.edu/builders)
-* Astropy: [travis-ci](https://travis-ci.org/astropy/astropy)
+* Nipy: [buildbot](http://nipy.bic.berkeley.edu/builders) [nipype travis-ci](https://travis-ci.org/nipy/nipype)
+* Astropy: [travis-ci](https://travis-ci.org/astropy/astropy), [shiningpanda](https://jenkins.shiningpanda.com/astropy/)
+* scikit-learn: [travis-ci](https://travis-ci.org/scikit-learn/scikit-learn),
+  [shiningpanda](https://jenkins.shiningpanda-ci.com/scikit-learn/)
+* pytables: [shiningpanda](https://jenkins.shiningpanda-ci.com/pytables/), [Jenkins](http://hudson.openmicroscopy.org.uk/job/PyTables/)
+* scikit-image: [shiningpanda](https://jenkins.shiningpanda-ci.com/skimage/) (not active)
+* sage: [buildbot](http://build.sagemath.org/sage/waterfall)
 
 It's good to make this more complete, feel free add links and make a pull request.
 
@@ -113,5 +119,36 @@ It's good to make this more complete, feel free add links and make a pull reques
 The following projects could also be useful to look at, because they are similar in spirit to what
 we want to do, even if they are not for Python:
 
+* [gammalib/ctools Jenkins](https://cta-jenkins.irap.omp.eu/view/CTA%20Python/) (an example of build pipelines with Jenkins)
 * http://openbuildservice.org (for testing / packaging on multiple Linuxes)
+* TODO: Link to debian testing system!?
 * http://upstream-tracker.org (an example of testing for API breakage of C / C++ / Java libraries)
+
+## Continous integration system options
+
+* [Jenkins](http://jenkins-ci.org): free
+* [Jetbrains Teamcity](http://www.jetbrains.com/teamcity/): cost?
+* [Atlassian Bamboo](http://www.atlassian.com/software/bamboo/overview): cost?
+* [Buildbot](http://trac.buildbot.net): free
+
+CI hosts:
+
+* [travis-ci](https://travis-ci.org): free
+* [ShiningPanda](https://www.shiningpanda-ci.com): cost?
+* [Snakebite](http://www.snakebite.net): hosted, Python-oriented, cost?, open?
+* [CloudBees](http://www.cloudbees.com/foss/): ???
+
+## References
+
+### Articles
+
+* http://vperic.blogspot.de/2011/05/continuous-integration-and-sympy.html
+* 
+
+### Mailing list discussions
+
+* 
+
+### Other
+
+* https://github.com/sympy/sympy-bot
