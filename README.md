@@ -45,9 +45,7 @@ We have started by setting up a [jenkins-ci](http://jenkins-ci.org) server on a
 At the moment there is a small test matrix for numpy and scipy,
 which we plan to expand to the [Scipy stack](http://scipy.github.com/stackspec.html)
 and eventually include other scientific Python packages.
-Please note that this is just to get some experience, whether we will use Jenkins or
-[Jetbrains Teamcity](http://www.jetbrains.com/teamcity/) or 
-[Atlassian Bamboo](http://www.atlassian.com/software/bamboo/overview) or one of the
+Please note that this is just to get some experience, whether we will use Jenkins or one of the
 other continous integration systems on the market for `scipy-ci` will be discussed,
 possibly there will be a trial-and-error phase where we try out a few promising options.
 
@@ -147,8 +145,11 @@ CI hosts:
 
 ### Mailing list discussions
 
-* 
+* [2012-05-01 "Continous integration" on numpy-discussion](http://mail.scipy.org/pipermail/numpy-discussion/2012-May/062041.html)
+* [2012-02-16 "Buildbot/continuous integration" on numpy-discussion](http://mail.scipy.org/pipermail/numpy-discussion/2012-February/060627.html)
+* [2012-08-23 "Snakebite build slaves and developer SSH/GPG public keys" on numfocus](https://groups.google.com/d/topic/numfocus/7ETLGs_T1yI/discussion)
 
 ### Other
+
 
 * https://github.com/sympy/sympy-bot
